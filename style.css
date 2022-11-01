@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.joke {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.punchline {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+
+    .joke,
+    .punchline {
+        font-size: 15px;
+    }
+}
